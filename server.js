@@ -13,7 +13,7 @@ app.use(logger("dev"));
 
 
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/cryptic-savannah-99977',
+  process.env.MONGODB_URI || 'mongodb://localhost/workout',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
